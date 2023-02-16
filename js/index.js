@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
       );
     });
 
-  fetch("/data/movies.json")
+  fetch("data/movies.json")
     .then((response) => response.json())
     .then((movies) => {
       movies.forEach((movie, index) => {
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ).observe(document.querySelector("#section-movies"));
     });
 
-  fetch("/data/skills.json")
+  fetch("data/skills.json")
     .then((response) => response.json())
     .then((skills) => {
       skills.forEach((skill) => {
@@ -190,7 +190,7 @@ function createSkill(skill) {
   $star.style.filter = `drop-shadow(0 0 0.5rem ${color})`;
 
   const $starImage = document.createElement("img");
-  $starImage.setAttribute("src", `/images/icons/${name.toLowerCase()}.svg`);
+  $starImage.setAttribute("src", `images/icons/${name.toLowerCase()}.svg`);
 
   const $starTitle = document.createElement("div");
   $starTitle.innerText = name;
