@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Inter Font (Only English) -->
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Inter'>
+
+    <!-- Pretendard Font -->
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css" />
+
+    <!-- Hangul.js https://github.com/e-/Hangul.js -->
+    <script src="https://unpkg.com/hangul-js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/index.js"></script>
+    <title>솔로스타의 자기소개 페이지입니다</title>
+</head>
+
+<body>
+    <section id="section-introduce">
+        <h1>자기소개</h1>
+        <ul>
+            <li>이름: 솔로스타</li>
+            <li>사는 곳: 노원구</li>
+            <li>반가워요! 프론트, 백엔드, 인프라 가리지 않고 관심이 많습니다.</li>
+            <li>화면에 나오는 것들은 찍먹 해본 것들 입니다.</li>
+        </ul>
+
+        <div id="introduce-planetary-buttons">
+            <button id="filter-frontend">Frontend</button>
+            <button id="filter-backend">Backend</button>
+            <button id="filter-devops">DevOps</button>
+        </div>
+
+        <div id="introduce-planetary">
+            <div id="introduce-planetary-stars">
+            </div>
+        </div>
+    </section>
+    <section id="section-movies">
+        <h1>인생영화 BEST 5</h1>
+
+        <div id="movie-detail">
+            <div>
+                <img id="movie-poster"
+                    src="https://image.tmdb.org/t/p/w600_and_h900_bestv2/c3Dzd3A3QE0LkKb5HMOHTzs2Fyg.jpg" width="320">
+
+                <ul id="movie-summary">
+                    <li>TheMovieDB 평점: <span id="movie-vote-average"></span> (<span id="movie-vote-count"></span>)</li>
+                    <li>
+                        <a target="_blank" id="movie-link">🔗 네이버 영화로 이동</a>
+                    </li>
+                </ul>
+                
+                <ul id="movie-list">
+                    
+                </ul>
+            </div>
+            <div id="movie-description">
+                <h2>영화 제목</h2>
+                <p>영화 줄거리</p>
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+
+        <table id="movies">
+            <thead>
+                <tr>
+                    <th class="rank">순위</th>
+                    <th class="poster">포스터</th>
+                    <th class="title">제목</th>
+                    <th>줄거리</th>
+                    <th class="link">바로가기</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Fill using ajax -->
+            </tbody>
+        </table>
+    </section>
+    <section id="section-visitlog">
+        <h1>방명록</h1>
+        <form onsubmit="submitVisitlog(event)">
+            <label for="visitlog-user">이름:</label>
+            <input name="visitlog-user" type="text">
+
+            <div id="visitlog-movies"></div>
+
+            <div id="visitlog-buttons">
+                <button type="submit">등록</button>
+                <button type="reset">취소</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+<div id="backdrop">
+    <embed id="backdrop-trailer"
+        src="https://www.youtube.com/embed/HWEW_qTLSEE?autoplay=1&mute=1&showinfo=0&controls=0&playlist=HWEW_qTLSEE&loop=1">
+</div>
+
+</html>

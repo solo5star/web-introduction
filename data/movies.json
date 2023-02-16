@@ -1,0 +1,206 @@
+[
+    {
+        "backdrop_path": "/u7kuUaySqXBVAtqEl9vkTkAzHV9.jpg",
+        "color": "#c6653b",
+        "youtube_trailer_id": "SOXWc32k4zA",
+        "belongs_to_collection": null,
+        "budget": 9000000,
+        "genres": [
+            {
+                "id": 18,
+                "name": "드라마"
+            },
+            {
+                "id": 35,
+                "name": "코미디"
+            }
+        ],
+        "homepage": "",
+        "id": 20453,
+        "imdb_id": "tt1187043",
+        "naver_movie_id": "73372",
+        "original_language": "hi",
+        "original_title": "3 Idiots",
+        "overview": "천재들만 간다는 일류 명문대 ICE, 성적과 취업만을 강요하는 학교를 발칵 뒤집어 놓은 대단한 녀석 란초! 아버지가 정해준 꿈, ‘공학자’가 되기 위해 정작 본인이 좋아하는 일은 포기하고 공부만 하는 파파보이 파르한! 찢어지게 가난한 집, 병든 아버지와 식구들을 책임지기 위해 무조건 대기업에 취직해야만 하는 라주! 친구의 이름으로 뭉친 ‘세 얼간이’! 삐딱한 천재들의 진정한 꿈을 찾기 위한 세상 뒤집기 한판이 시작된다!",
+        "popularity": 30.103,
+        "poster_path": "/9zQdFVyDoXqFmGYXp4obna6FEMh.jpg",
+        "production_companies": [
+            {
+                "id": 3781,
+                "logo_path": null,
+                "name": "Vidhu Vinod Chopra Productions",
+                "origin_country": "IN"
+            },
+            {
+                "id": 44164,
+                "logo_path": "/oZNzUp0YbfaKLaVTYghcnM4tYQv.png",
+                "name": "Vinod Chopra Films",
+                "origin_country": "IN"
+            }
+        ],
+        "production_countries": [
+            {
+                "iso_3166_1": "IN",
+                "name": "India"
+            }
+        ],
+        "release_date": "2009-12-23",
+        "revenue": 70000000,
+        "runtime": 170,
+        "spoken_languages": [
+            {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+            },
+            {
+                "english_name": "Hindi",
+                "iso_639_1": "hi",
+                "name": "हिन्दी"
+            }
+        ],
+        "status": "Released",
+        "tagline": "비뚤어진 천재들의 세상 뒤집기 한판!",
+        "title": "세 얼간이",
+        "video": false,
+        "vote_average": 7.977,
+        "vote_count": 2022
+    },
+    {
+        "backdrop_path": "/hGGC9gKo7CFE3fW07RA587e5kol.jpg",
+        "color": "#639cd3",
+        "youtube_trailer_id": "HWEW_qTLSEE",
+        "belongs_to_collection": null,
+        "budget": 175000000,
+        "genres": [
+            {
+                "id": 16,
+                "name": "애니메이션"
+            },
+            {
+                "id": 35,
+                "name": "코미디"
+            },
+            {
+                "id": 10751,
+                "name": "가족"
+            },
+            {
+                "id": 12,
+                "name": "모험"
+            }
+        ],
+        "homepage": "",
+        "id": 14160,
+        "imdb_id": "tt1049413",
+        "naver_movie_id": "52120",
+        "original_language": "en",
+        "original_title": "Up",
+        "overview": "평생 모험을 꿈꿔 왔던 칼 할아버지는 재개발 공사 현장의 인부를 실수로 다치게 하고 집을 빼앗길 위기에 처한다. 그 동안 미뤄 왔던, 먼저 세상을 떠난 아내와의 약속을 지키기 위해 그는 수천 개의 풍선을 매달아 집을 통째로 남아메리카로 날려 버린다. 하지만 이 위대한 모험에 초대 받지 않은 불청객이 있었으니, 바로 황야의 어린이 탐험가 러셀. 우여곡절 끝에 도착한 남미에서 칼은 어린 시절의 우상이었던 위대한 모험가 찰스 먼츠를 만나게 되는데... 그들은 과연 남미의 잃어버린 세계에서 사라져 버린 꿈과 희망, 행복을 다시 찾을 수 있을까?",
+        "popularity": 88.362,
+        "poster_path": "/lL2WzkjLZP0RkPgUhybBjb9x9SL.jpg",
+        "production_companies": [
+            {
+                "id": 3,
+                "logo_path": "/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
+                "name": "Pixar",
+                "origin_country": "US"
+            }
+        ],
+        "production_countries": [
+            {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+            }
+        ],
+        "release_date": "2009-05-28",
+        "revenue": 735099082,
+        "runtime": 96,
+        "spoken_languages": [
+            {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+            }
+        ],
+        "status": "Released",
+        "tagline": "한방울 눈물과 한바탕 웃음",
+        "title": "업",
+        "video": false,
+        "vote_average": 7.942,
+        "vote_count": 18101
+    },
+    {
+        "backdrop_path": "/vndouqEyQqpvvk0FwIlkfceblrh.jpg",
+        "color": "#ff2203",
+        "youtube_trailer_id": "PXi3Mv6KMzY",
+        "belongs_to_collection": {
+            "id": 77816,
+            "name": "쿵푸팬더 시리즈",
+            "poster_path": "/2QT6PuYXY0T2Ry9rX0JKQYTrbwx.jpg",
+            "backdrop_path": "/uDosHOFFWtF5YteBRygHALFqLw2.jpg"
+        },
+        "budget": 130000000,
+        "genres": [
+            {
+                "id": 28,
+                "name": "액션"
+            },
+            {
+                "id": 12,
+                "name": "모험"
+            },
+            {
+                "id": 16,
+                "name": "애니메이션"
+            },
+            {
+                "id": 10751,
+                "name": "가족"
+            },
+            {
+                "id": 35,
+                "name": "코미디"
+            }
+        ],
+        "homepage": "",
+        "id": 9502,
+        "imdb_id": "tt0441773",
+        "naver_movie_id": "62262",
+        "original_language": "en",
+        "original_title": "Kung Fu Panda",
+        "overview": "평화의 계곡에서 아버지의 국수 가게를 돕고 있는 팬더 포. 아버지는 국수의 비법을 알려주어 가업을 잇게 하고 싶지만, 포의 관심사는 오로지 쿵푸 마스터. 가게 일은 뒷전으로 하고 쿵푸의 비법이 적힌 용문서의 전수자를 정하는 무적의 5인방 대결을 보러 시합장을 찾은 포. 그런데 마을의 현인 우그웨이 대사부가 포를 용문서의 전수자로 점지하는 이변이 일어난다. 무적의 5인방은 물론 시푸 사부 역시 이 사태를 받아들이지 못하는 가운데, 용문서를 노리고 어둠의 감옥에서 탈출한 타이 렁이 마을을 습격해오자 그를 막아야 하는 미션이 포에게 떨어지는데...",
+        "popularity": 74.866,
+        "poster_path": "/c3Dzd3A3QE0LkKb5HMOHTzs2Fyg.jpg",
+        "production_companies": [
+            {
+                "id": 521,
+                "logo_path": "/kP7t6RwGz2AvvTkvnI1uteEwHet.png",
+                "name": "DreamWorks Animation",
+                "origin_country": "US"
+            }
+        ],
+        "production_countries": [
+            {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+            }
+        ],
+        "release_date": "2008-06-04",
+        "revenue": 631744560,
+        "runtime": 90,
+        "spoken_languages": [
+            {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+            }
+        ],
+        "status": "Released",
+        "tagline": "국수집 배달원 포, 마을을 지켜낼 예언의 인물로 점지되다",
+        "title": "쿵푸팬더",
+        "video": false,
+        "vote_average": 7.217,
+        "vote_count": 9976
+    }
+]

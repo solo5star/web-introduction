@@ -1,0 +1,631 @@
+[
+    {
+        "name": "Javascript",
+        "type": "language",
+        "color": "#F7DF1E",
+        "tags": ["frontend", "backend"]
+    },
+    {
+        "name": "Typescript",
+        "type": "language",
+        "color": "#3178C6",
+        "tags": ["frontend", "backend"]
+    },
+    {
+        "name": "Python",
+        "type": "language",
+        "color": "#3776AB",
+        "tags": ["backend", "devops"]
+    },
+    {
+        "name": "C",
+        "type": "language",
+        "color": "#A8B9CC",
+        "tags": []
+    },
+    {
+        "name": "C++",
+        "color": "#00599C",
+        "type": "language",
+        "tags": []
+    },
+    {
+        "name": "CSharp",
+        "type": "language",
+        "color": "#239120",
+        "tags": ["backend"]
+    },
+    {
+        "name": "Rust",
+        "type": "language",
+        "color": "#000000",
+        "tags": []
+    },
+    {
+        "name": "Dart",
+        "type": "language",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "Java",
+        "type": "language",
+        "color": "#FFFFFF",
+        "tags": ["backend"]
+    },
+    {
+        "name": "PHP",
+        "type": "language",
+        "color": "#777BB4",
+        "tags": ["backend"]
+    },
+    {
+        "name": "Ruby",
+        "type": "language",
+        "color": "#CC342D",
+        "tags": ["backend"]
+    },
+    {
+        "name": "HTML5",
+        "type": "language",
+        "color": "#E34F26",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "CSS3",
+        "type": "language",
+        "color": "#1572B6",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "Bootstrap",
+        "type": "library",
+        "color": "#7952B3",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "jQuery",
+        "type": "library",
+        "color": "#0769AD",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "MUI",
+        "type": "library",
+        "color": "#007FFF",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "AMP",
+        "type": "library",
+        "color": "#005AF0",
+        "tags": ["backend"]
+    },
+    {
+        "name": "Anaconda",
+        "type": "toolchain",
+        "color": "#44A833",
+        "tags": []
+    },
+    {
+        "name": "Apache Kafka",
+        "type": "library",
+        "color": "#231F20",
+        "tags": ["backend", "devops"]
+    },
+    {
+        "name": "Apache Maven",
+        "type": "toolchain",
+        "color": "#C71A36",
+        "tags": []
+    },
+    {
+        "name": "Arduino",
+        "type": "platform",
+        "color": "#00979D",
+        "tags": ["embeded"]
+    },
+    {
+        "name": "Babel",
+        "type": "library",
+        "color": "#F9DC3E",
+        "tags": ["frontend", "backend"]
+    },
+    {
+        "name": "CentOS",
+        "type": "os",
+        "color": "#262577",
+        "tags": ["devops"]
+    },
+    {
+        "name": "Cockpit",
+        "type": "self-hosted",
+        "color": "#0066CC",
+        "tags": ["devops"]
+    },
+    {
+        "name": "create-react-app",
+        "type": "toolchain",
+        "color": "#09D3AC",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "curl",
+        "type": "util",
+        "color": "#073551",
+        "tags": ["devops"]
+    },
+    {
+        "name": "D3.js",
+        "type": "library",
+        "color": "#F9A03C",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "Debian",
+        "type": "os",
+        "color": "#A81D33",
+        "tags": ["devops"]
+    },
+    {
+        "name": "Django",
+        "type": "framework",
+        "color": "#092E20",
+        "tags": ["backend"]
+    },
+    {
+        "name": "Docker",
+        "type": "platform",
+        "color": "#2496ED",
+        "tags": ["backend", "devops"]
+    },
+    {
+        "name": "EditorConfig",
+        "type": "util",
+        "color": "#FEFEFE",
+        "tags": []
+    },
+    {
+        "name": "Electron",
+        "type": "library",
+        "color": "#47848F",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "electron-builder",
+        "type": "library",
+        "color": "#FFFFFF",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "ESLint",
+        "type": "library",
+        "color": "#4B32C3",
+        "tags": ["frontend", "backend"]
+    },
+    {
+        "name": "Express",
+        "type": "framework",
+        "color": "#000000",
+        "tags": ["backend"]
+    },
+    {
+        "name": "FastAPI",
+        "type": "framework",
+        "color": "#009688",
+        "tags": ["backend"]
+    },
+    {
+        "name": "Figma",
+        "type": "util",
+        "color": "#F24E1E",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "Flask",
+        "type": "framework",
+        "color": "#000000",
+        "tags": ["backend"]
+    },
+    {
+        "name": "Flutter",
+        "type": "framework",
+        "color": "#02569B",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "Git",
+        "type": "util",
+        "color": "#F05032",
+        "tags": ["devops"]
+    },
+    {
+        "name": "GitHub",
+        "type": "util",
+        "color": "#181717",
+        "tags": ["devops"]
+    },
+    {
+        "name": "GitHub Actions",
+        "type": "util",
+        "color": "#2088FF",
+        "tags": ["devops"]
+    },
+    {
+        "name": "GNU Bash",
+        "type": "util",
+        "color": "#4EAA25",
+        "tags": ["devops"]
+    },
+    {
+        "name": "Google Analytics",
+        "type": "util",
+        "color": "#E37400",
+        "tags": ["frontend", "backend"]
+    },
+    {
+        "name": "Google Colab",
+        "type": "util",
+        "color": "#F9AB00",
+        "tags": []
+    },
+    {
+        "name": "Gradle",
+        "type": "toolchain",
+        "color": "#02303A",
+        "tags": ["backend"]
+    },
+    {
+        "name": "Grafana",
+        "type": "self-hosted",
+        "color": "#F46800",
+        "tags": ["devops"]
+    },
+    {
+        "name": "GraphQL",
+        "type": "library",
+        "color": "#E10098",
+        "tags": ["frontend", "backend"]
+    },
+    {
+        "name": "InfluxDB",
+        "type": "database",
+        "color": "#22ADF6",
+        "tags": ["backend"]
+    },
+    {
+        "name": "Jenkins",
+        "type": "self-hosted",
+        "color": "#D24939",
+        "tags": ["devops", "backend"]
+    },
+    {
+        "name": "Jest",
+        "type": "library",
+        "color": "#C21325",
+        "tags": ["frontend", "backend"]
+    },
+    {
+        "name": "JSON",
+        "type": "util",
+        "color": "#000000",
+        "tags": ["frontend", "backend", "devops"]
+    },
+    {
+        "name": "JSON Web Tokens",
+        "type": "util",
+        "color": "#000000",
+        "tags": ["frontend", "backend", "devops"]
+    },
+    {
+        "name": "Jupyter",
+        "type": "platform",
+        "color": "#F37626",
+        "tags": []
+    },
+    {
+        "name": "Linux",
+        "type": "os",
+        "color": "#FCC624",
+        "tags": ["embeded", "devops"]
+    },
+    {
+        "name": "Linux Containers",
+        "type": "os",
+        "color": "#333333",
+        "tags": ["devops"]
+    },
+    {
+        "name": "MariaDB",
+        "type": "database",
+        "color": "#003545",
+        "tags": ["backend"]
+    },
+    {
+        "name": "Markdown",
+        "type": "language",
+        "color": "#000000",
+        "tags": []
+    },
+    {
+        "name": "Material Design",
+        "type": "library",
+        "color": "#757575",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "Mattermost",
+        "type": "self-hosted",
+        "color": "#0058CC",
+        "tags": ["devops"]
+    },
+    {
+        "name": "MongoDB",
+        "type": "database",
+        "color": "#47A248",
+        "tags": ["backend"]
+    },
+    {
+        "name": "NestJS",
+        "type": "framework",
+        "color": "#E0234E",
+        "tags": ["backend"]
+    },
+    {
+        "name": "Nextcloud",
+        "type": "self-hosted",
+        "color": "#0082C9",
+        "tags": ["devops"]
+    },
+    {
+        "name": "NGINX",
+        "type": "self-hosted",
+        "color": "#009639",
+        "tags": ["frontend", "backend", "devops"]
+    },
+    {
+        "name": "node.js",
+        "type": "platform",
+        "color": "#339933",
+        "tags": ["frontend", "backend"]
+    },
+    {
+        "name": "Nodemon",
+        "type": "library",
+        "color": "#76D04B",
+        "tags": ["backend"]
+    },
+    {
+        "name": "Notion",
+        "type": "util",
+        "color": "#000000",
+        "tags": []
+    },
+    {
+        "name": "npm",
+        "type": "util",
+        "color": "#CB3837",
+        "tags": ["frontend", "backend"]
+    },
+    {
+        "name": "NumPy",
+        "type": "library",
+        "color": "#013243",
+        "tags": []
+    },
+    {
+        "name": "OPNSense",
+        "type": "self-hosted",
+        "color": "#D94F00",
+        "tags": ["devops"]
+    },
+    {
+        "name": "Oracle",
+        "type": "database",
+        "color": "#F80000",
+        "tags": ["backend"]
+    },
+    {
+        "name": "Pi-hole",
+        "type": "self-hosted",
+        "color": "#96060C",
+        "tags": []
+    },
+    {
+        "name": "pnpm",
+        "type": "util",
+        "color": "#F69220",
+        "tags": ["frontend", "backend"]
+    },
+    {
+        "name": "Portainer",
+        "type": "self-hosted",
+        "color": "#13BEF9",
+        "tags": ["devops"]
+    },
+    {
+        "name": "PostgreSQL",
+        "type": "database",
+        "color": "#4169E1",
+        "tags": ["backend"]
+    },
+    {
+        "name": "Postman",
+        "type": "util",
+        "color": "#FF6C37",
+        "tags": ["frontend", "backend"]
+    },
+    {
+        "name": "Prettier",
+        "type": "library",
+        "color": "#F7B93E",
+        "tags": ["frontend", "backend"]
+    },
+    {
+        "name": "Prometheus",
+        "type": "self-hosted",
+        "color": "#E6522C",
+        "tags": ["devops"]
+    },
+    {
+        "name": "Proxmox",
+        "type": "os",
+        "color": "#E57000",
+        "tags": ["devops"]
+    },
+    {
+        "name": "RabbitMQ",
+        "type": "self-hosted",
+        "color": "#FF6600",
+        "tags": ["devops"]
+    },
+    {
+        "name": "Raspberry Pi",
+        "type": "platform",
+        "color": "#A22846",
+        "tags": ["embeded"]
+    },
+    {
+        "name": "React",
+        "type": "framework",
+        "color": "#61DAFB",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "React Query",
+        "type": "library",
+        "color": "#FF4154",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "React Router",
+        "type": "library",
+        "color": "#CA4245",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "Redux",
+        "type": "library",
+        "color": "#764ABC",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "Selenium",
+        "type": "library",
+        "color": "#43B02A",
+        "tags": ["frontend", "devops"]
+    },
+    {
+        "name": "Socket.io",
+        "type": "library",
+        "color": "#010101",
+        "tags": ["frontend", "backend"]
+    },
+    {
+        "name": "Spring Boot",
+        "type": "framework",
+        "color": "#6DB33F",
+        "tags": ["backend"]
+    },
+    {
+        "name": "SQLite",
+        "type": "database",
+        "color": "#003B57",
+        "tags": ["backend"]
+    },
+    {
+        "name": "Sublime Text",
+        "type": "util",
+        "color": "#FF9800",
+        "tags": ["frontend", "backend", "devops"]
+    },
+    {
+        "name": "Tampermonkey",
+        "type": "util",
+        "color": "#00485B",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "tqdm",
+        "type": "library",
+        "color": "#FFC107",
+        "tags": ["backend", "devops"]
+    },
+    {
+        "name": "Traefik Proxy",
+        "type": "self-hosted",
+        "color": "#24A1C1",
+        "tags": ["devops"]
+    },
+    {
+        "name": "ts-node",
+        "type": "platform",
+        "color": "#3178C6",
+        "tags": ["frontend", "backend"]
+    },
+    {
+        "name": "Ubuntu",
+        "type": "os",
+        "color": "#E95420",
+        "tags": ["devops"]
+    },
+    {
+        "name": "Vim",
+        "type": "util",
+        "color": "#019733",
+        "tags": ["devops"]
+    },
+    {
+        "name": "Visual Studio",
+        "type": "util",
+        "color": "#5C2D91",
+        "tags": ["embeded", "backend"]
+    },
+    {
+        "name": "Visual Studio Code",
+        "type": "util",
+        "color": "#007ACC",
+        "tags": ["frontend", "backend", "devops", "embeded"]
+    },
+    {
+        "name": "Vite",
+        "type": "platform",
+        "color": "#646CFF",
+        "tags": ["frontend", "backend"]
+    },
+    {
+        "name": "Vue.js",
+        "type": "framework",
+        "color": "#4FC08D",
+        "tags": ["frontend"]
+    },
+    {
+        "name": "Webpack",
+        "type": "library",
+        "color": "#8DD6F9",
+        "tags": ["frontend", "backend"]
+    },
+    {
+        "name": "Windows Terminal",
+        "type": "util",
+        "color": "#4D4D4D",
+        "tags": ["devops"]
+    },
+    {
+        "name": "Wireguard",
+        "type": "util",
+        "color": "#88171A",
+        "tags": ["devops"]
+    },
+    {
+        "name": "Wireshark",
+        "type": "util",
+        "color": "#1679A7",
+        "tags": ["backend", "devops"]
+    },
+    {
+        "name": "Yarn",
+        "type": "toolchain",
+        "color": "#2C8EBB",
+        "tags": ["backend", "frontend"]
+    }
+]
