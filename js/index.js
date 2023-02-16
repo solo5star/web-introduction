@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
   $heading.style.visibility = "hidden";
   $items.forEach(($item) => ($item.style.visibility = "hidden"));
 
-  playTypingAnimation($heading, 100)
+  delay(800)
+    .then(() => playTypingAnimation($heading, 100))
     .then(() => delay(500))
     .then(() => {
       return [...$items].reduce(
