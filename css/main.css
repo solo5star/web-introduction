@@ -219,6 +219,12 @@ th.link {
     }
 }
 
+.star-bucket {
+    position: absolute;
+    will-change: transform;
+    transform: rotateY(calc(var(--rotation-offset) * 1deg)) scaleX(-1) translateZ(900px);
+}
+
 .star {
     color: white;
     display: flex;
@@ -226,9 +232,9 @@ th.link {
     align-items: center;
     gap: 0.5rem;
     position: absolute;
-    will-change: transform;
-    transform-style: preserve-3d;
-    transform: rotateY(calc(var(--rotation-offset) * 1deg)) scaleX(-1) translateZ(900px);
+    /* will-change: transform; */
+    /* transform-style: preserve-3d; */
+    /* transform: rotateY(calc(var(--rotation-offset) * 1deg)) scaleX(-1) translateZ(900px); */
     cursor: pointer;
     text-align: center;
     transition: opacity 0.8s ease 0s;
@@ -240,9 +246,9 @@ th.link {
     transition: transform 0.2s ease 0s;
 }
 
-.star img:hover {
+/* .star img:hover {
     transform: scale(1.5);
-}
+} */
 
 form label {
     font-size: 1.5rem;

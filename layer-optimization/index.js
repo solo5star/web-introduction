@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       );
     });
 
-  fetch("data/movies.json")
+  fetch("../data/movies.json")
     .then((response) => response.json())
     .then((movies) => {
       movies.forEach((movie, index) => {
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ).observe(document.querySelector("#section-movies"));
     });
 
-  fetch("data/skills.json")
+  fetch("../data/skills.json")
     .then((response) => response.json())
     .then((skills) => {
       skills.forEach((skill) => {
@@ -69,6 +69,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       ).observe(document.getElementById("section-introduce"));
     });
+
+  createSkillBuckets();
 });
 
 function selectMovie(movie) {
@@ -180,18 +182,30 @@ function createMovie(movie, rank) {
   $visitlogMovies.appendChild($label);
 }
 
+function createSkillBuckets() {
+  const $stars = document.getElementById("introduce-planetary-stars");
+  const bucketSize = 20;
+
+  for (let rotation = 0; rotation < 360; rotation += bucketSize) {
+    const $starBucket = document.createElement("div");
+    $starBucket.setAttribute("class", "star-bucket");
+    $starBucket.style.setProperty("--rotation-offset", rotation);
+    $stars.append($starBucket);
+  }
+}
+
 function createSkill(skill) {
   const { name, type, color, tags } = skill;
 
   const $star = document.createElement("figure");
   $star.setAttribute("name", name);
   $star.setAttribute("class", "star");
-  $star.style.setProperty("--rotation-offset", Math.random() * 360);
   $star.style.top = `${Math.random() * 800 - 400}px`;
+  $star.style.left = `${Math.random() * 100 - 200}px`;
   $star.style.filter = `drop-shadow(0 0 0.5rem ${color})`;
 
   const $starImage = document.createElement("img");
-  $starImage.setAttribute("src", `images/icons/${name.toLowerCase()}.svg`);
+  $starImage.setAttribute("src", `../images/icons/${name.toLowerCase()}.svg`);
 
   const $starTitle = document.createElement("div");
   $starTitle.innerText = name;
@@ -199,8 +213,10 @@ function createSkill(skill) {
   $star.appendChild($starImage);
   $star.appendChild($starTitle);
 
-  const $stars = document.getElementById("introduce-planetary-stars");
-  $stars.appendChild($star);
+  const $starBuckets = document.querySelectorAll(".star-bucket");
+  const $starBucket =
+    $starBuckets[Math.floor(Math.random() * $starBuckets.length)];
+  $starBucket.append($star);
 }
 
 function emphasizeSkills(skills) {
